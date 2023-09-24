@@ -1,0 +1,346 @@
+/* Section-1 starts */
+
+body {
+    margin: 0px auto;
+    max-width: 1920px;
+    max-height: 1916px;
+}
+
+.section-1 {
+    background-image: url("./images/Hue_Saturation\ 5\ 1.png");
+    width: 1974px;
+    height: 892px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+
+.woman {
+    background-image: url("./images/MafiaCostume_2022\ 2.png");
+    position: relative;
+    z-index: 2;
+    width: 577px;
+    height: 876px;
+    top: 16px;
+}
+
+.man {
+    background-image: url("./images/MafiaCostume_2022\ 3.png");
+    position: relative;
+    z-index: 2;
+    width: 678px;
+    height: 876px;
+    bottom: 861px;
+    left: 1219px;
+
+}
+
+.lamp {
+    background-image: url("./images/glow\ 1.png");
+    position: relative;
+    z-index: 3;
+    width: 1837px;
+    height: 892px;
+    bottom: 1753px;
+    filter: opacity(48%) brightness(1.5) saturate(1.5) blur(4px);
+    image-rendering: pixelated;
+    left: 79px;
+}
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    bottom: 2642px;
+    right: 56px;
+}
+
+.logo {
+    background-image: url('./images/logo.png');
+    width: 376px;
+    height: 348px;
+    margin-top: -15px;
+}
+
+.boxes {
+    background-image: url("./images/boxes.png");
+    width: 766px;
+    height: 525px;
+    margin-top: -92px;
+}
+
+.center h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 42px;
+    color: white;
+    margin-top: -20px;
+}
+
+.center p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: -44px;
+    margin-left: 63px;
+}
+
+.layer-left {
+    background-image: url("./images/Layer\ 157\ 1.png");
+    position: relative;
+    z-index: 4;
+    width: 462px;
+    height: 934px;
+    bottom: 3538px;
+}
+
+.layer-right {
+    background-image: url('./images/Layer\ 157\ 2.png');
+    position: relative;
+    z-index: 4;
+    width: 462px;
+    height: 934px;
+    left: 1481px;
+    bottom: 4472px;
+}
+
+.layer-bottom {
+    background-image: url("./images/Layer\ 157\ 3.png");
+    position: relative;
+    z-index: 2;
+    width: 1920px;
+    height: 380px;
+    bottom: 4849px;
+}
+
+.bottom-lamp {
+    background-image: url("./images/BLUE\ GLOW\ 3.png");
+    position: relative;
+    z-index: 4;
+    width: 1920px;
+    height: 172px;
+    bottom: 5025px;
+}
+
+/* Section-1 ends */
+
+/* _____________________________________________________________________________________________________________ */
+
+/* Section-2 starts */
+
+
+.section-2 {
+    background-image: url("./images/background\ wall.png");
+    width: 1920px;
+    height: 1024px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.secondary-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: relative;
+    z-index: 2; */
+}
+
+.ellipse {
+    background-image: url("./images/Ellipse\ 1.png");
+    width: 1105px;
+    height: 1019px;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    left: 39px;
+    top: 1px;
+}
+
+.vito {
+    background-image: url("./images/Vito\ 1.png");
+    width: 441px;
+    height: 891px;
+    position: relative;
+    z-index: 3;
+    left: 361px;
+    bottom: 978px;
+}
+
+
+.equipment {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    bottom: 20px
+}
+
+.equipment h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: #416DF4;
+}
+
+.items {
+    display: flex;
+    color: white;
+    align-items: center;
+    border: 1px solid #671D00;
+    border-radius: 1px;
+    width: 632px;
+    height: 74px;
+    gap: 2px;
+}
+
+.text-desc {
+    width: 229px;
+    height: 64px;
+    margin-left: 19px;
+}
+
+.free-servers {
+    width: 27px;
+    height: 64px;
+    margin-left: 76px;
+}
+
+.subs-server {
+    width: 72px;
+    height: 65px;
+    margin-left: 99px;
+}
+
+.items p {
+    font-family: "Robot", sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.subscription {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 632px;
+    height: 23px;
+    padding-bottom: 10px;
+    gap: 5px;
+}
+
+.subscription p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #671D00;
+    color: #671D00;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    width: 140px;
+    height: 23px;
+}
+
+.sandglass {
+    background-image: url("./images/Часы\ copy\ 1.png");
+    width: 62px;
+    height: 65px;
+    border-radius: 1px;
+}
+
+.toolbox {
+    background-image: url("./images/ТУЛБОКС\ 1.png");
+    width: 62px;
+    height: 65px;
+    border-radius: 1px;
+}
+
+.rune {
+    background-image: url("./images/хрупкая\ 1.png");
+    width: 62px;
+    height: 65px;
+    border-radius: 1px;
+}
+
+.symbol {
+    background-image: url("./images/большой\ символ\ 1.png");
+    width: 62px;
+    height: 65px;
+    border-radius: 1px;
+
+}
+
+.mana-battery {
+    background-image: url("./images/мана\ 1.png");
+    width: 62px;
+    height: 65px;
+    border-radius: 1px;
+
+}
+
+.memory-module {
+    background-image: url("./images/модуль\ 1.png");
+    width: 62px;
+    height: 65px;
+    border-radius: 1px;
+
+}
+
+.vito2 {
+    background-image: url("./images/вито\ 1.png");
+    width: 62px;
+    height: 65px;
+    border-radius: 1px;
+
+}
+
+.vito-box {
+    background-image: url("./images/box.png");
+    width: 402px;
+    height: 323px;
+    width: 251px;
+}
+
+.vito3 {
+    display: flex;
+}
+
+.buy-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buy-box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.buy-box button {
+    width: 180px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    border-radius: 7px;
+    background-color: #FCFF00;
+    border: none;
+}
+
+.lamp-3 {
+    background-image: url("./images/BLUE\ GLOW\ 1.png");
+    position: relative;
+    z-index: 5;
+    width: 1920px;
+    height: 172px;
+    bottom: 1073px;
+}
+
+/* Section-2 ends */
